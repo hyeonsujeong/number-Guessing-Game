@@ -1,0 +1,39 @@
+
+<!-- saved from url=(0150)https://trello-attachments.s3.amazonaws.com/5c9c724a8089dc51091ac1dc/5d294a0856344048d2ff9a16/321466edb025ce24e9525ac9e9665f46/numberGuessingGame.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>숫자 맞추기 게임</title>
+        <style>
+            html {
+                font-family: sans-serif;
+            }
+            
+            body {
+                width: 50%;
+                max-width: 800px;
+                min-width: 480px;
+                margin: 0 auto;
+            }
+            
+            .yesOrNo {
+                color: white;
+                padding: 3px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <h1>숫자 맞추기 게임</h1>
+        <p>1에서 100 사이의 랜덤한 숫자가 선정됩니다. 맞출 수 있는 기회는 10번입니다. 당신이 입력한 수가 정답보다 큰지, 작은지 알려드립니다.</p>
+        <div id="content"> <label for="guessForm">답 입력: </label>
+            <input type="text" id="guessForm" class="guessForm"> <!-- 예상하는 수를 입력할 곳 -->
+            <input type="submit" value="입력" class="guessButton"> <!-- 예상하는 수를 입력한 후 입력하기 위한 버튼 -->
+        </div>
+        <div class="resultDiv">
+            <p class="guessHistory"><!-- 내가 입력한 수가 기록될 곳 --></p>
+            <p class="yesOrNo"><!-- 예상하는 수가 맞았는지 틀렸는지 표시할 곳 --></p>
+            <p class="highOrLow"><!-- 예상하는 수가 정답보다 큰지 작은지 표시할 곳 --></p>
+        </div>
+    
+    <script type="text/javascript" src="numberGuessingGame.js"></script>
+</body></html>
